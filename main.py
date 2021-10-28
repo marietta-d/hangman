@@ -3,9 +3,6 @@ from random import randint
 dictionary_file_name = "dictionary.txt"  # our file
 dictionary_handler = open(dictionary_file_name, "r")  # open file for reading
 
-# counting lines
-# --------------
-
 
 def count_lines(file_handler):
     """
@@ -164,4 +161,3 @@ while keep_running:
     answer = input("play again? ").lower().strip()
     yes_answers = ["yes", "y"]
     keep_running = (answer in yes_answers)
-
